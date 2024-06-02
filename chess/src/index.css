@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color);
+}
+
+:root {
+  --title-size: 90px;
+  --light-tile: #f0d8b7;
+  --dark-tile: #996633;
+  --bg-color: #202020;
+}
+
+@media all and (max-width: 450px) {
+  :root {
+    --title-size: 50px;
+  }
+}
