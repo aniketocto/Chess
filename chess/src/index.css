@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-  --title-size: 90px;
+  --tile-size: 90px;
   --light-tile: #f0d8b7;
   --dark-tile: #996633;
   --bg-color: #202020;
@@ -14,6 +14,6 @@ body {
 
 @media all and (max-width: 450px) {
   :root {
-    --title-size: 50px;
+    --tile-size: 50px;
   }
 }
